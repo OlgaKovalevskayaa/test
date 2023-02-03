@@ -1,0 +1,91 @@
+html {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+@media screen and (max-width: 570px) {
+    .wrapper {
+        padding: 10px;
+    }
+}
+
+header {
+    background-color: rgb(216, 223, 160);
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+
+.fa-solid {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+td {
+    text-align: left;
+    border: 1px solid #808080;
+    padding: 30px 50px;
+}
+
+@media screen and (max-width: 810px) {
+    td {
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    td {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    td {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    td {
+        padding: 5px;
+    }
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 620px) {
+    .box {
+        flex-direction: column;
+    }
+}
+
+.box-two {
+    display: flex;
+    justify-content: space-between;
+}

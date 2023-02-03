@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/610c345b31.js" crossorigin="anonymous"></script>
+    <title>Olga Kovalevskaya's Test</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <div class="box">
+                <div class="filters">
+
+                    <label for="sort">Сортировка:</label>
+                    <select name="sort" id="sort">
+                                <option selected value="alphabet">По статусу</option>
+                                <option value="maximum">По количеству заказов (макс)</option>
+                                <option value="minimum">По количеству заказов (мин)</option>
+                    </select>
+
+                </div>
+
+                <div class="site-search">
+                    <p>Поиск по логину:</p>
+                    <input type="search" id="search-input">
+                    <button type="button" id="search-btn" class="fa-solid fa-magnifying-glass"></button>
+
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+
+
+    <main class="box-two">
+        <div class="wrapper">
+            <p id="nothing-found"></p>
+            <table id="shop-items">
+                <tr>
+                    <td>Место</td>
+                    <td>Логин</td>
+                    <td>Подтвержденные заказы</td>
+                    <td>Статус</td>
+                </tr>
+
+            </table>
+        </div>
+
+
+    </main>
+    <template>
+        
+    </template>
+
+    <template id="item-template">
+        <tr class="table-row">
+            <td class="place"></td>
+            <td class="login"></td>
+            <td class="confirmedOrders"></td>
+            <td class="status"></td>
+        </tr>
+    </template>
+    <script src="script.js"></script>
+</body>
+
+</html>
